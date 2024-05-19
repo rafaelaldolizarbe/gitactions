@@ -6,8 +6,8 @@ on:
       - main
       - develop
     types: [ opened, reopened]
-  push: # Evento que ird disparar a a¢gao
-    branches: [ main ] # Branch que ird disparar a a¢do
+#  push: # Evento que ird disparar a a¢gao
+#    branches: [ main ] # Branch que ird disparar a a¢do
 
 jobs: # Trabalhos a serem executados
   build:
