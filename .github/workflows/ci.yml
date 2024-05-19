@@ -1,6 +1,11 @@
 name: Exemplo de CI # Nome da acdo
 
 on:
+  pull_request:
+    branches:
+      - main
+      - develop
+    types: [ opened, reopened]
   push: # Evento que ird disparar a a¢gao
     branches: [ main ] # Branch que ird disparar a a¢do
 
