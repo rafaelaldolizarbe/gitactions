@@ -18,5 +18,5 @@ jobs: # Trabalhos a serem executados
         java-version: '17' # Versdo do JDK
 
     - name: Build with Maven # Nome do passo, nesse caso, buildar com Maven
-      run: mvn -B package —DskipTests # Comando a ser executado
+      run: mvn package -DskipTests # Comando a ser executado
 
