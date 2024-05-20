@@ -8,7 +8,8 @@ on:
     types: [ opened, reopened]
 #  push: # Evento que ird disparar a a¢gao
 #    branches: [ main ] # Branch que ird disparar a a¢do
-
+# Diga-me e eu esqueço, ensine-me e eu posso
+#lembrar, envolva-me e eu aprendo. - Benjamin Franklin
 jobs: # Trabalhos a serem executados
   build:
     runs-on: ubuntu-latest # Sistema operacional a ser utilizado
