@@ -36,7 +36,7 @@ public class CalculadoraServiceTest {
         double a = 10;
         double b = 0;
 
-        var expectedMessage = "400 BAD_REQUEST \"Divisao por zero não permitida\"";
+        var expectedMessage = "400 BAD_REQUEST \"Divisão por zero não permitida\"";
 
         // Assert
         ResponseStatusException exception = assertThrows(
