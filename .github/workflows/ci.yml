@@ -64,6 +64,6 @@ jobs: # Trabalhos a serem executados
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: rafaellizarbe95/aula-ci:${{ github.sha }}
+        tags: rafaellizarbe95/aula-ci:latest
 
 
